@@ -27,7 +27,7 @@ setup(name='gs.core.properties',
     url='http://groupserver.org/',
     license='other',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['gs','core'],
+    namespace_packages=['gs','gs.core'],
     include_package_data=True,
     zip_safe=True,
     install_requires=[

@@ -3,10 +3,17 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:browser="http://namespaces.zope.org/browser">
-    
 
   <utility
     factory=".interfaces.GSCoreOptionFactory"
     name="gs.core.properties.options" />
+
+   <browser:page
+    for="Products.GSContent.interfaces.IGSSiteFolder"
+    name="options-core.html"
+    class="gs.option.edit.GSOptionEditView"
+    template="browser/templates/edit_options.pt"
+    permission="zope2.View"
+    />
 
 </configure>
