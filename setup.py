@@ -8,8 +8,8 @@ version = get_version()
 setup(name='gs.core.properties',
     version=version,
     description="Get and set options related to the core groupserver configuration.",
-    long_description=open("README.txt").read() + "\n" +
-                      open(os.path.join("docs", "HISTORY.txt")).read(),
+    long_description=open("README.rst").read() + "\n" +
+                      open(os.path.join("docs", "HISTORY.rst")).read(),
     classifiers=[
       "Development Status :: 4 - Beta",
       "Environment :: Web Environment",
